@@ -28,11 +28,9 @@ const HookStructure = () => {
   return (
     <div>
       <h2 className="text-2xl">Count: {count}</h2>
-      <button
-        onClick={() => setCount(count + 1)}
-        className="border
-      "
-      ></button>
+      <button onClick={() => setCount(count + 1)} className="border">
+        Increment
+      </button>
       <hr className="text-gray-200" />
       <h2 className="text-2xl">Typed text: {text}</h2>
       <input
